@@ -1,16 +1,16 @@
 {
   "n": 1,
-  "meanSensing": 4.0,
-  "meanVelocity": 4.0,
-  "gap": 0.0,
+  "meanSensing": 3.33,
+  "meanVelocity": 5.0,
+  "gap": -1.67,
   "avgP3": 2.0,
-  "avgP4": 6.0,
+  "avgP4": 4.0,
   "avgP5": 4.0,
-  "avgP6": 4.0,
+  "avgP6": 5.0,
   "medP3": 2,
-  "medP4": 6,
+  "medP4": 4,
   "medP5": 4,
-  "medP6": 4,
+  "medP6": 5,
   "distP3": {
     "1": 0,
     "2": 1,
@@ -24,9 +24,9 @@
     "1": 0,
     "2": 0,
     "3": 0,
-    "4": 0,
+    "4": 1,
     "5": 0,
-    "6": 1,
+    "6": 0,
     "7": 0
   },
   "distP5": {
@@ -42,8 +42,8 @@
     "1": 0,
     "2": 0,
     "3": 0,
-    "4": 1,
-    "5": 0,
+    "4": 0,
+    "5": 1,
     "6": 0,
     "7": 0
   },
@@ -51,34 +51,34 @@
     "Senior Director": 1
   },
   "sizes": {
-    "500 \u2013 5,000": 1
+    "More than 50,000": 1
   },
   "gapBySize": {
-    "500 \u2013 5,000": {
-      "sensing": 4.0,
-      "velocity": 4.0,
-      "gap": 0.0,
+    "More than 50,000": {
+      "sensing": 3.33,
+      "velocity": 5.0,
+      "gap": -1.67,
       "n": 1
     }
   },
   "gapByRole": {
     "Senior Director": {
-      "sensing": 4.0,
-      "velocity": 4.0,
-      "gap": 0.0,
+      "sensing": 3.33,
+      "velocity": 5.0,
+      "gap": -1.67,
       "n": 1
     }
   },
   "scatter": [
     {
-      "x": 4.0,
-      "y": 4
+      "x": 3.33,
+      "y": 5
     }
   ],
   "quadrants": {
     "Leaders": 0,
     "Stuck at Sensing": 0,
-    "Reactive": 0,
-    "Laggards": 1
+    "Reactive": 1,
+    "Laggards": 0
   }
 }
